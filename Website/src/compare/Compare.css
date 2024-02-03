@@ -1,0 +1,55 @@
+.compare-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.title-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px auto;
+}
+
+h6 {
+    margin-top: 10px;
+}
+
+p {
+    white-space: pre-line;
+}
+
+.result-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.download-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.aligned-text {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre;
+  }

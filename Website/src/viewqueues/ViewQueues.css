@@ -1,0 +1,112 @@
+.compare-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.title-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px auto;
+}
+
+h6 {
+    margin-top: 10px;
+}
+
+p {
+    white-space: pre-line;
+}
+
+.result-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.download-container {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.aligned-text {
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre;
+  }
+
+  .title-bar {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.queue-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Styles for each task category */
+.queue-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Styles for pending and completed lists */
+.queue-list {
+    margin-bottom: 20px;
+}
+
+.queue-list-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.queue-list-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Styles for individual items in the list */
+.queue-list-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.queue-list-item p {
+    margin: 5px 0;
+}
+
+/* Optional: Add background colors or any other styling as needed */
+/* For example: */
+.queue-list-item.pending {
+    background-color: #ffd700; /* Yellow for pending tasks */
+}
+
+.queue-list-item.completed {
+    background-color: #90ee90; /* Light green for completed tasks */
+}
